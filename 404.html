@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL=./index.html" />
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+      var path = window.location.pathname;
+      var repo = "/the-guide";
+      window.location.replace(repo + "/?redirect=" + path.replace(repo, ""));
+    </script>
   </head>
   <body></body>
 </html>
