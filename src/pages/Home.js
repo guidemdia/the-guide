@@ -15,7 +15,6 @@ export default function Home() {
          <Navbar />
       <Interface/>
         
-        
             <SliderL/>
                    <SliderR/>
             <Single/>
