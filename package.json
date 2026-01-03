@@ -2,7 +2,7 @@
   "name": "my-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://guidemdia.github.io/theguide",
+  "homepage": "https://guidemdia.github.io/theguidesecond",
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.19",
