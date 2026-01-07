@@ -5,9 +5,14 @@
     <title>Redirecting...</title>
     <script>
       var path = window.location.pathname;
-      var repo = "/the-guide";
-      window.location.replace(repo + "/?redirect=" + path.replace(repo, ""));
+      var search = window.location.search;
+      var hash = window.location.hash;
+      window.location.replace(
+        "/" + "#" + path + search + hash
+      );
     </script>
   </head>
-  <body></body>
+  <body>
+    Redirecting...
+  </body>
 </html>
